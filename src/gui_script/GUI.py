@@ -86,14 +86,14 @@ class RobotControlGUI(QMainWindow):
 
         self.launch_btn = QPushButton('Launch Robot Configuration')
         self.launch_btn.clicked.connect(self.launch_robot)
-        self.joint_gui_btn = QPushButton('Launch Joint State Publisher GUI')
-        self.joint_gui_btn.clicked.connect(self.launch_joint_gui)
-        self.joint_gui_btn.setEnabled(False)
+        # self.joint_gui_btn = QPushButton('Launch Joint State Publisher GUI')
+        # self.joint_gui_btn.clicked.connect(self.launch_joint_gui)
+        # self.joint_gui_btn.setEnabled(False)
         
         dof_layout.addWidget(QLabel("Select DOF:"))
         dof_layout.addWidget(self.dof_combo)
         dof_layout.addWidget(self.launch_btn)
-        dof_layout.addWidget(self.joint_gui_btn)
+        # dof_layout.addWidget(self.joint_gui_btn)
         dof_group.setLayout(dof_layout)
         
         # Status and Joint Information
@@ -125,13 +125,13 @@ class RobotControlGUI(QMainWindow):
         control_layout = QHBoxLayout()
         self.stop_robot_btn = QPushButton('Stop Robot')
         self.stop_robot_btn.clicked.connect(self.stop_robot)
-        self.stop_joint_gui_btn = QPushButton('Stop Joint GUI')
+        # self.stop_joint_gui_btn = QPushButton('Stop Joint GUI')
         self.stop_joint_gui_btn.clicked.connect(self.stop_joint_gui)
         self.refresh_btn = QPushButton('Refresh Status')
         self.refresh_btn.clicked.connect(self.refresh_status)
         
         control_layout.addWidget(self.stop_robot_btn)
-        control_layout.addWidget(self.stop_joint_gui_btn)
+        # control_layout.addWidget(self.stop_joint_gui_btn)
         control_layout.addWidget(self.refresh_btn)
         control_group.setLayout(control_layout)
         
@@ -148,7 +148,7 @@ class RobotControlGUI(QMainWindow):
 
         if self.launch_process and self.launch_process.state() != QProcess.NotRunning:
             self.log_status("Terminating existing robot process...")
-            self.launch_process.kill()
+            self.launch_process.terminate()  # sends SIGINT (Ctrl+C)
             self.launch_process.waitForFinished(5000)
 
         selected_index = self.dof_combo.currentIndex()
@@ -188,34 +188,34 @@ class RobotControlGUI(QMainWindow):
 
         self.launch_process.start('bash', ['-c', f'source /opt/ros/$ROS_DISTRO/setup.bash && {command}'])
 
-        QTimer.singleShot(5000, lambda: self.joint_gui_btn.setEnabled(True))
+        # QTimer.singleShot(5000, lambda: self.joint_gui_btn.setEnabled(True))
 
-    def launch_joint_gui(self):
-        """Launch the joint_state_publisher_gui"""
-        if self.joint_gui_process and self.joint_gui_process.state() != QProcess.NotRunning:
-            self.log_status("Terminating existing joint GUI process...")
-            self.joint_gui_process.kill()
-            self.joint_gui_process.waitForFinished(3000)
+    # def launch_joint_gui(self):
+    #     """Launch the joint_state_publisher_gui"""
+    #     if self.joint_gui_process and self.joint_gui_process.state() != QProcess.NotRunning:
+    #         self.log_status("Terminating existing joint GUI process...")
+    #         self.joint_gui_process.kill()
+    #         self.joint_gui_process.waitForFinished(3000)
         
-        self.joint_gui_process = QProcess(self)
+    #     self.joint_gui_process = QProcess(self)
         
-        # Set up environment
-        env = QProcessEnvironment.systemEnvironment()
-        self.joint_gui_process.setProcessEnvironment(env)
+    #     # Set up environment
+    #     env = QProcessEnvironment.systemEnvironment()
+    #     self.joint_gui_process.setProcessEnvironment(env)
         
-        # Set up process monitoring
-        self.joint_gui_process.readyReadStandardOutput.connect(self.read_joint_gui_output)
-        self.joint_gui_process.readyReadStandardError.connect(self.read_joint_gui_error)
-        self.joint_gui_process.finished.connect(self.joint_gui_process_finished)
-        self.joint_gui_process.started.connect(lambda: self.log_status("Joint State Publisher GUI started successfully"))
+    #     # Set up process monitoring
+    #     self.joint_gui_process.readyReadStandardOutput.connect(self.read_joint_gui_output)
+    #     self.joint_gui_process.readyReadStandardError.connect(self.read_joint_gui_error)
+    #     self.joint_gui_process.finished.connect(self.joint_gui_process_finished)
+    #     self.joint_gui_process.started.connect(lambda: self.log_status("Joint State Publisher GUI started successfully"))
         
-        command = "ros2 run joint_state_publisher_gui joint_state_publisher_gui"
+    #     command = "ros2 run joint_state_publisher_gui joint_state_publisher_gui"
         
-        self.log_status("Launching Joint State Publisher GUI...")
-        self.log_status(f"Command: {command}")
+    #     self.log_status("Launching Joint State Publisher GUI...")
+    #     self.log_status(f"Command: {command}")
         
-        # Start the process
-        self.joint_gui_process.start('bash', ['-c', f'source /opt/ros/$ROS_DISTRO/setup.bash && {command}'])
+    #     # Start the process
+    #     self.joint_gui_process.start('bash', ['-c', f'source /opt/ros/$ROS_DISTRO/setup.bash && {command}'])
 
     def read_robot_output(self):
         """Read and display robot process output"""
@@ -231,45 +231,60 @@ class RobotControlGUI(QMainWindow):
         if error:
             self.log_status(f"Robot Error: {error}")
 
-    def read_joint_gui_output(self):
-        """Read and display joint GUI process output"""
-        data = self.joint_gui_process.readAllStandardOutput()
-        output = bytes(data).decode('utf-8').strip()
-        if output:
-            self.log_status(f"Joint GUI: {output}")
+    # def read_joint_gui_output(self):
+    #     """Read and display joint GUI process output"""
+    #     data = self.joint_gui_process.readAllStandardOutput()
+    #     output = bytes(data).decode('utf-8').strip()
+    #     if output:
+    #         self.log_status(f"Joint GUI: {output}")
 
-    def read_joint_gui_error(self):
-        """Read and display joint GUI process errors"""
-        data = self.joint_gui_process.readAllStandardError()
-        error = bytes(data).decode('utf-8').strip()
-        if error:
-            self.log_status(f"Joint GUI Error: {error}")
+    # def read_joint_gui_error(self):
+    #     """Read and display joint GUI process errors"""
+    #     data = self.joint_gui_process.readAllStandardError()
+    #     error = bytes(data).decode('utf-8').strip()
+    #     if error:
+    #         self.log_status(f"Joint GUI Error: {error}")
 
     def stop_robot(self):
         """Stop the robot launch process"""
         if self.launch_process and self.launch_process.state() != QProcess.NotRunning:
-            self.launch_process.kill()
-            self.log_status("Robot process terminated.")
-            self.joint_gui_btn.setEnabled(False)
-        else:
-            self.log_status("No robot process running.")
+            self.launch_process.terminate()  # sends SIGINT (Ctrl+C)
+            self.launch_process.waitForFinished(3000)
 
-    def stop_joint_gui(self):
-        """Stop the joint state publisher GUI"""
-        if self.joint_gui_process and self.joint_gui_process.state() != QProcess.NotRunning:
-            self.joint_gui_process.kill()
-            self.log_status("Joint State Publisher GUI terminated.")
-        else:
-            self.log_status("No Joint GUI process running.")
+        kill_cmd = (
+            "pkill -f ros2;"
+            "pkill -f rviz2;"
+            "pkill -f ros2_control_node;"
+            "pkill -f spawner;"
+            "pkill -f controller;"
+        )
+    # Optionally, add other process names you want gone
+
+    # Use Python's subprocess to call bash so you get shell expansion & compound commands
+        subprocess.call(["bash", "-c", kill_cmd])
+
+        self.log_status("All ROS 2 processes terminated.")
+
+        
+            # self.joint_gui_btn.setEnabled(False)
+        
+
+    # def stop_joint_gui(self):
+    #     """Stop the joint state publisher GUI"""
+    #     if self.joint_gui_process and self.joint_gui_process.state() != QProcess.NotRunning:
+    #         self.joint_gui_process.kill()
+    #         self.log_status("Joint State Publisher GUI terminated.")
+    #     else:
+    #         self.log_status("No Joint GUI process running.")
 
     def robot_process_finished(self, exit_code):
         """Handle robot process completion"""
         self.log_status(f"Robot process finished with exit code: {exit_code}")
-        self.joint_gui_btn.setEnabled(False)
+        # self.joint_gui_btn.setEnabled(False)
 
-    def joint_gui_process_finished(self, exit_code):
-        """Handle joint GUI process completion"""
-        self.log_status(f"Joint State Publisher GUI finished with exit code: {exit_code}")
+    # def joint_gui_process_finished(self, exit_code):
+    #     """Handle joint GUI process completion"""
+    #     self.log_status(f"Joint State Publisher GUI finished with exit code: {exit_code}")
 
     def update_joint_display(self, joint_state_msg):
         """Update the joint state display with current values"""
@@ -301,11 +316,11 @@ class RobotControlGUI(QMainWindow):
         """Refresh the status of running processes"""
         robot_status = "Running" if (self.launch_process and 
                                    self.launch_process.state() != QProcess.NotRunning) else "Stopped"
-        joint_gui_status = "Running" if (self.joint_gui_process and 
-                                       self.joint_gui_process.state() != QProcess.NotRunning) else "Stopped"
+        # joint_gui_status = "Running" if (self.joint_gui_process and 
+        #                                self.joint_gui_process.state() != QProcess.NotRunning) else "Stopped"
         
         self.log_status(f"Robot Process: {robot_status}")
-        self.log_status(f"Joint GUI Process: {joint_gui_status}")
+        # self.log_status(f"Joint GUI Process: {joint_gui_status}")
         
         # Also check ROS environment
         ros_distro = os.environ.get('ROS_DISTRO', 'Not found')
@@ -316,7 +331,7 @@ class RobotControlGUI(QMainWindow):
         self.log_status("Shutting down...")
         
         if self.launch_process and self.launch_process.state() != QProcess.NotRunning:
-            self.launch_process.kill()
+            self.launch_process.terminate()  # sends SIGINT (Ctrl+C)
             self.launch_process.waitForFinished(3000)
         
         if self.joint_gui_process and self.joint_gui_process.state() != QProcess.NotRunning:
