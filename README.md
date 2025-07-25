@@ -91,7 +91,7 @@ Use the Python GUI in this repository to launch different DOF robot configuratio
 python3 ~/src/gui_script/GUI.py
 </pre>
 
-![Robot URDF](images/GUI_PIC.png "Robot Model")
+![ROS Integrated GUI](images/GUI_Pic.png "GUI")
 
 
 
@@ -101,10 +101,21 @@ Or manually launch configurations using commands like:
 ros2 launch five_dof_config demo.launch.py
 </pre>
 
+![Planner Window](images/planner_window.png "Planning Window")
+
+
 
 Replace `five_dof_config` with your desired config package such as `zero_dof_config`, `one_dof_config`, `six_dof_config`, etc.
+
+Now to plan and execute your task you can turn on "Query Start State" to choose your starting point from the panel in the top right in Planning Request->Query Start State
+
+![Planning with start and goal state](images/start_state.png)
+
+After that just Hit Plan and Voila!! it should plan the path and apply the Inverse Kinematics yourself , you can easily integrate hardware by changing the parameters in the ros2_control.xacro file 
 
 ### 6. Additional Useful Commands
 
 - Launch RViz visualization standalone (for debugging or manual visualization):
+
+
 
