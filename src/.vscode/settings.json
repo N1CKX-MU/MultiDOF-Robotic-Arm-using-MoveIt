@@ -1,0 +1,42 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/nick/ros2_ws/install/lesson_urdf/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages",
+        "/home/nick/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_py/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_msgs/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/nick/ros2_ws/install/lesson_urdf/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages",
+        "/home/nick/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages",
+        "/home/nick/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_py/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_msgs/local/lib/python3.10/dist-packages",
+        "/home/nick/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

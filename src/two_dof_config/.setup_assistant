@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: panda_2dof_moveit_config
+    relative_path: urdf/panda.urdf
+  srdf:
+    relative_path: config/panda.srdf
+  package_settings:
+    author_name: nick
+    author_email: nick@gmail.com
+    generated_timestamp: 1750230017
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
