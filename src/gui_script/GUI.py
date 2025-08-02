@@ -166,12 +166,15 @@ class RobotControlGUI(QMainWindow):
             7: "seven"
         }
 
-        # Construct package and launch file names
-        package_name = f"{index_to_word[selected_index]}_dof_config"
-        launch_file = "demo.launch.py"
-
-
         self.current_dof = selected_index
+
+        # Use special package name for 7 DOF
+        if selected_index == 7:
+            package_name = "panda_7dof_moveit_config"
+            launch_file = "demo.launch.py"
+        else:
+            package_name = f"{index_to_word[selected_index]}_dof_config"
+            launch_file = "demo.launch.py"
 
         self.launch_process = QProcess(self)
         env = QProcessEnvironment.systemEnvironment()

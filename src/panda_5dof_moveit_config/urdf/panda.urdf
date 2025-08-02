@@ -7,13 +7,13 @@
   <link name="panda_link0">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link0.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link0.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link0.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link0.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -21,13 +21,13 @@
   <link name="panda_link1">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link1.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link1.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link1.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link1.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -43,13 +43,13 @@
   <link name="panda_link2">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link2.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link2.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link2.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link2.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -65,13 +65,13 @@
   <link name="panda_link3">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link3.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link3.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link3.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link3.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -87,13 +87,13 @@
   <link name="panda_link4">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link4.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link4.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link4.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link4.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -109,13 +109,13 @@
   <link name="panda_link5">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link5.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link5.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link5.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link5.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -131,13 +131,13 @@
   <link name="panda_link6">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link6.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link6.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link6.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link6.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -150,13 +150,13 @@
   <link name="panda_link7">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/link7.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/link7.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/link7.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/link7.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -184,13 +184,13 @@
   <link name="panda_hand">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/hand.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/hand.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/hand.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/hand.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -198,13 +198,13 @@
   <link name="panda_leftfinger">
     <visual>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/finger.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/finger.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/finger.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/finger.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>
@@ -213,14 +213,14 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/visual/finger.dae"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/visual/finger.dae"/>
       </geometry>
       <material name="panda_white"/>
     </visual>
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/nick/panda_dof_ws/src/Panda/meshes/collision/finger.obj"/>
+        <mesh filename="package://panda_urdf_modifications/meshes/collision/finger.stl"/>
       </geometry>
       <material name="panda_white"/>
     </collision>

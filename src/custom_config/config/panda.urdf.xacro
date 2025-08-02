@@ -2,13 +2,11 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="panda">
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
-    <!-- Import panda urdf file -->
-    <xacro:include filename="/home/nick/panda_dof_ws/src/Panda/panda.urdf" />
+    <!-- Including another xacro from a different package: -->
+    <xacro:include filename="package://panda_urdf_modifications/urdf/panda_7dof.urdf.xacro" />
 
-    <!-- Import control_xacro -->
+    <!-- Including another xacro from the same folder (relative): -->
     <xacro:include filename="panda.ros2_control.xacro" />
 
-
     <xacro:panda_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
-
 </robot>
