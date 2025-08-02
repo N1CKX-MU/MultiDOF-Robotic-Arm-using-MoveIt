@@ -1,0 +1,4 @@
+source;share/panda_urdf_modifications/local_setup.bash
+source;share/panda_urdf_modifications/local_setup.dsv
+source;share/panda_urdf_modifications/local_setup.sh
+source;share/panda_urdf_modifications/local_setup.zsh

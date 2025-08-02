@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nick/panda_dof_ws/src/build/panda_urdf_modifications
+-- Install configuration: ""
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_1dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_2dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_7dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_4dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_6dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_0dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_3dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/urdf/panda_5dof.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/ament_index/resource_index/package_run_dependencies/panda_urdf_modifications
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/ament_index/resource_index/parent_prefix_path/panda_urdf_modifications
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/environment/ament_prefix_path.sh
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/environment/ament_prefix_path.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/environment/path.sh
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/environment/path.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/local_setup.bash
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/local_setup.sh
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/local_setup.zsh
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/local_setup.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/package.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/ament_index/resource_index/packages/panda_urdf_modifications
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/cmake/panda_urdf_modificationsConfig.cmake
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/cmake/panda_urdf_modificationsConfig-version.cmake
+-- Installing: /home/nick/panda_dof_ws/src/install/panda_urdf_modifications/share/panda_urdf_modifications/package.xml

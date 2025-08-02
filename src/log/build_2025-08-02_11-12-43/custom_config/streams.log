@@ -1,0 +1,63 @@
+[0.030s] Invoking command in '/home/nick/panda_dof_ws/src/build/custom_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/nick/panda_dof_ws/src/custom_config -DCMAKE_INSTALL_PREFIX=/home/nick/panda_dof_ws/src/install/custom_config
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.253s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.339s] -- Detecting C compile features - done
+[0.344s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.451s] -- Detecting CXX compile features
+[0.451s] -- Detecting CXX compile features - done
+[0.465s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.660s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.943s] -- Configuring done
+[0.948s] -- Generating done
+[0.948s] -- Build files have been written to: /home/nick/panda_dof_ws/src/build/custom_config
+[0.954s] Invoked command in '/home/nick/panda_dof_ws/src/build/custom_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/nick/panda_dof_ws/src/custom_config -DCMAKE_INSTALL_PREFIX=/home/nick/panda_dof_ws/src/install/custom_config
+[0.959s] Invoking command in '/home/nick/panda_dof_ws/src/build/custom_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/nick/panda_dof_ws/src/build/custom_config -- -j12 -l12
+[1.022s] Invoked command in '/home/nick/panda_dof_ws/src/build/custom_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/nick/panda_dof_ws/src/build/custom_config -- -j12 -l12
+[1.035s] Invoking command in '/home/nick/panda_dof_ws/src/build/custom_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/nick/panda_dof_ws/src/build/custom_config
+[1.046s] -- Install configuration: ""
+[1.046s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/ament_index/resource_index/package_run_dependencies/custom_config
+[1.046s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/ament_index/resource_index/parent_prefix_path/custom_config
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/environment/ament_prefix_path.sh
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/environment/ament_prefix_path.dsv
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/environment/path.sh
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/environment/path.dsv
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/local_setup.bash
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/local_setup.sh
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/local_setup.zsh
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/local_setup.dsv
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/package.dsv
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/ament_index/resource_index/packages/custom_config
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/cmake/custom_configConfig.cmake
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/cmake/custom_configConfig-version.cmake
+[1.047s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/package.xml
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/spawn_controllers.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/custom.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/setup_assistant.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/warehouse_db.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/demo.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/move_group.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/rsp.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/static_virtual_joint_tfs.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/launch/moveit_rviz.launch.py
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config
+[1.048s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/moveit.rviz
+[1.049s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/panda.urdf.xacro
+[1.049s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/stomp_planning.yaml
+[1.049s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/kinematics.yaml
+[1.049s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/initial_positions.yaml
+[1.050s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/moveit_controllers.yaml
+[1.050s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/panda.srdf
+[1.050s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/joint_limits.yaml
+[1.051s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/ompl_planning.yaml
+[1.051s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/ros2_controllers.yaml
+[1.051s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/pilz_cartesian_limits.yaml
+[1.052s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/config/panda.ros2_control.xacro
+[1.052s] -- Installing: /home/nick/panda_dof_ws/src/install/custom_config/share/custom_config/.setup_assistant
+[1.059s] Invoked command in '/home/nick/panda_dof_ws/src/build/custom_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/nick/panda_dof_ws/src/build/custom_config

@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nick/panda_dof_ws/src/build/six_dof_config
+-- Install configuration: ""
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/ament_index/resource_index/package_run_dependencies/six_dof_config
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/ament_index/resource_index/parent_prefix_path/six_dof_config
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/environment/ament_prefix_path.sh
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/environment/ament_prefix_path.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/environment/path.sh
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/environment/path.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/local_setup.bash
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/local_setup.sh
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/local_setup.zsh
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/local_setup.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/package.dsv
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/ament_index/resource_index/packages/six_dof_config
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/cmake/six_dof_configConfig.cmake
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/cmake/six_dof_configConfig-version.cmake
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/package.xml
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/spawn_controllers.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/setup_assistant.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/warehouse_db.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/demo.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/move_group.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/rsp.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/launch/moveit_rviz.launch.py
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/moveit.rviz
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/panda.urdf.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/kinematics.yaml
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/initial_positions.yaml
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/moveit_controllers.yaml
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/panda.srdf
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/joint_limits.yaml
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/ros2_controllers.yaml
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/config/panda.ros2_control.xacro
+-- Installing: /home/nick/panda_dof_ws/src/install/six_dof_config/share/six_dof_config/.setup_assistant

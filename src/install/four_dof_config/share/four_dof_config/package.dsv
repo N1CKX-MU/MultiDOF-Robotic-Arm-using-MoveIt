@@ -1,0 +1,8 @@
+source;share/four_dof_config/hook/cmake_prefix_path.ps1
+source;share/four_dof_config/hook/cmake_prefix_path.dsv
+source;share/four_dof_config/hook/cmake_prefix_path.sh
+source;share/four_dof_config/local_setup.bash
+source;share/four_dof_config/local_setup.dsv
+source;share/four_dof_config/local_setup.ps1
+source;share/four_dof_config/local_setup.sh
+source;share/four_dof_config/local_setup.zsh

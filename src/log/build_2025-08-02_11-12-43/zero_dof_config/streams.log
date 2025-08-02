@@ -1,0 +1,36 @@
+[0.855s] Invoking command in '/home/nick/panda_dof_ws/src/zero_dof_config': PYTHONPATH=/home/nick/panda_dof_ws/src/build/zero_dof_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/zero_dof_config build --build-base /home/nick/panda_dof_ws/src/build/zero_dof_config/build install --record /home/nick/panda_dof_ws/src/build/zero_dof_config/install.log --single-version-externally-managed install_data
+[1.101s] running egg_info
+[1.101s] creating ../build/zero_dof_config/zero_dof_config.egg-info
+[1.102s] writing ../build/zero_dof_config/zero_dof_config.egg-info/PKG-INFO
+[1.102s] writing dependency_links to ../build/zero_dof_config/zero_dof_config.egg-info/dependency_links.txt
+[1.102s] writing entry points to ../build/zero_dof_config/zero_dof_config.egg-info/entry_points.txt
+[1.102s] writing requirements to ../build/zero_dof_config/zero_dof_config.egg-info/requires.txt
+[1.102s] writing top-level names to ../build/zero_dof_config/zero_dof_config.egg-info/top_level.txt
+[1.103s] writing manifest file '../build/zero_dof_config/zero_dof_config.egg-info/SOURCES.txt'
+[1.105s] reading manifest file '../build/zero_dof_config/zero_dof_config.egg-info/SOURCES.txt'
+[1.106s] writing manifest file '../build/zero_dof_config/zero_dof_config.egg-info/SOURCES.txt'
+[1.106s] running build
+[1.106s] running build_py
+[1.106s] creating /home/nick/panda_dof_ws/src/build/zero_dof_config/build
+[1.106s] creating /home/nick/panda_dof_ws/src/build/zero_dof_config/build/lib
+[1.106s] creating /home/nick/panda_dof_ws/src/build/zero_dof_config/build/lib/zero_dof_config
+[1.106s] copying zero_dof_config/demo.launch.py -> /home/nick/panda_dof_ws/src/build/zero_dof_config/build/lib/zero_dof_config
+[1.106s] copying zero_dof_config/__init__.py -> /home/nick/panda_dof_ws/src/build/zero_dof_config/build/lib/zero_dof_config
+[1.106s] running install
+[1.107s] running install_lib
+[1.107s] creating /home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages/zero_dof_config
+[1.107s] copying /home/nick/panda_dof_ws/src/build/zero_dof_config/build/lib/zero_dof_config/demo.launch.py -> /home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages/zero_dof_config
+[1.108s] copying /home/nick/panda_dof_ws/src/build/zero_dof_config/build/lib/zero_dof_config/__init__.py -> /home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages/zero_dof_config
+[1.108s] byte-compiling /home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages/zero_dof_config/demo.launch.py to demo.launch.cpython-310.pyc
+[1.108s] byte-compiling /home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages/zero_dof_config/__init__.py to __init__.cpython-310.pyc
+[1.109s] running install_data
+[1.109s] creating /home/nick/panda_dof_ws/src/install/zero_dof_config/share/ament_index
+[1.109s] creating /home/nick/panda_dof_ws/src/install/zero_dof_config/share/ament_index/resource_index
+[1.109s] creating /home/nick/panda_dof_ws/src/install/zero_dof_config/share/ament_index/resource_index/packages
+[1.109s] copying resource/zero_dof_config -> /home/nick/panda_dof_ws/src/install/zero_dof_config/share/ament_index/resource_index/packages
+[1.109s] copying package.xml -> /home/nick/panda_dof_ws/src/install/zero_dof_config/share/zero_dof_config
+[1.109s] running install_egg_info
+[1.109s] Copying ../build/zero_dof_config/zero_dof_config.egg-info to /home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages/zero_dof_config-0.0.0-py3.10.egg-info
+[1.110s] running install_scripts
+[1.125s] writing list of installed files to '/home/nick/panda_dof_ws/src/build/zero_dof_config/install.log'
+[1.201s] Invoked command in '/home/nick/panda_dof_ws/src/zero_dof_config' returned '0': PYTHONPATH=/home/nick/panda_dof_ws/src/build/zero_dof_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nick/panda_dof_ws/src/install/zero_dof_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/zero_dof_config build --build-base /home/nick/panda_dof_ws/src/build/zero_dof_config/build install --record /home/nick/panda_dof_ws/src/build/zero_dof_config/install.log --single-version-externally-managed install_data

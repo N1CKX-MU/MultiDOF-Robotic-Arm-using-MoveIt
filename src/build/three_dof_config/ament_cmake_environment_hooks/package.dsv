@@ -1,0 +1,4 @@
+source;share/three_dof_config/local_setup.bash
+source;share/three_dof_config/local_setup.dsv
+source;share/three_dof_config/local_setup.sh
+source;share/three_dof_config/local_setup.zsh

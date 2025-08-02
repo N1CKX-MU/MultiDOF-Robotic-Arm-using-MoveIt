@@ -1,0 +1,16 @@
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/urdf/panda.urdf
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/ament_index/resource_index/package_run_dependencies/panda_5dof_moveit_config
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/ament_index/resource_index/parent_prefix_path/panda_5dof_moveit_config
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/environment/ament_prefix_path.sh
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/environment/ament_prefix_path.dsv
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/environment/path.sh
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/environment/path.dsv
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/local_setup.bash
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/local_setup.sh
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/local_setup.zsh
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/local_setup.dsv
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/package.dsv
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/ament_index/resource_index/packages/panda_5dof_moveit_config
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/cmake/panda_5dof_moveit_configConfig.cmake
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/cmake/panda_5dof_moveit_configConfig-version.cmake
+/home/nick/panda_dof_ws/src/install/panda_5dof_moveit_config/share/panda_5dof_moveit_config/package.xml
